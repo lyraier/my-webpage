@@ -113,14 +113,16 @@ heart11.style.animationName = "myAnimation";
 heart12.style.animationName = "myAnimation";
 
 setTimeout(() => { sash.style.display="block";sash.style.opacity='1'; sash.style.animationName = "myAnimation"; }, 2000);
-setTimeout(() => {
-  document.getElementById("scrollHint").style.display = "block";
-  document.body.style.overflowY = "scroll";
-}, 6000); 
 
 
   // play music
   document.getElementById("loveSong").play();
+
+  setTimeout(() => {
+  document.getElementById("scrollHint").style.display = "block";
+  document.body.style.overflowY = "scroll";
+}, 6000); 
+
 }
 </script>
 
@@ -329,6 +331,7 @@ to{bottom:100vh;}
 }
 </style>
 </html>
+
 
 
 
